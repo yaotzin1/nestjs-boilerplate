@@ -1,0 +1,48 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "removeComments": true,
+    "noLib": false,
+    "allowSyntheticDefaultImports": true,
+    "target": "es5",
+    "declaration": true,
+    "noImplicitAny": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "strictNullChecks": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noEmitOnError": false,
+    "noEmitHelpers": false,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "preserveConstEnums": true,
+    "inlineSources": false,
+    "pretty": true,
+    "moduleResolution": "node",
+    "listFiles": false,
+    "lib": [
+      "dom",
+      "es2015",
+      "es5",
+      "es6"
+    ],
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./src",
+    "paths": {
+      "app/*":["app/*"]
+    }
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts",
+    "./dist"
+  ],
+  "awesomeTypescriptLoaderOptions": {
+    "resolveGlobs": true,
+    "forkChecker": true
+  }
+}
