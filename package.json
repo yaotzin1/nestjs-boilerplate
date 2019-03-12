@@ -1,7 +1,7 @@
 {
   "name": "api",
-  "version": "0.0.1",
-  "description": "api-for-order-together",
+  "version": "0.0.2",
+  "description": "nestjs-boilerplate",
   "author": "piotr.solarz-wnek",
   "license": "",
   "scripts": {
