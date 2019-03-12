@@ -1,8 +1,9 @@
-# api
+# NESTJS BOILERPLATE
 
 ## Description
 
-api-fro-order-together
+I like to use NESTJS framework for developing of back-end. But I did not found any usefull boilerplate for it. 
+So then I create one...
 
 ## Installation
 
